@@ -1,6 +1,6 @@
 Implementing a PID controller in C++
 
-In this project I am use the lake race track from the Behavioral Cloning Project.This time, however,I'll implement a PID controller in C++ to maneuver the vehicle around the track!
+In this project I am revisiting the lake race track from the Behavioral Cloning Project.This time, however,I'm implementing a PID controller in C++ to maneuver the vehicle around the track!
 The simulator will provide the cross track error (CTE) and the velocity (mph) in order to compute the appropriate steering angle.
 
 
