@@ -6,12 +6,13 @@ You can see how the car performs in a simulated environment here :
 
 [![Alt text](https://img.youtube.com/vi/7tYUHxwhNRI/0.jpg)](https://www.youtube.com/watch?v=7tYUHxwhNRI)
 
-## Reflection : 
+# Reflection : 
 
 In this project, I have built a PID controller and tuned the PID hyperparameters by applying the general processing flow as described in the SDCND lessons.
 My implementation of the PID controller in C++ is spawned to control steer and maneuvers the vehicle around the track. The simulator provides the cross track error (CTE) and the velocity (mph) in order to compute the appropriate steering angle.
 
-The effect of the P, I, D component of the PID algorithm: 
+# The effect of the P, I, D component of the PID algorithm: 
+
 I tweaked the PID coefficients via trial and error and used that to update the steering value.
 While running the contoller with varying coefficients values for the P,I,D, I observed change in magnitude of oscillation, steering and cross track error. 
 I observed an increase in value of P increased the magnitude of the oscillation, and setting the D coefficients too high caused sharp steering change.  
@@ -22,18 +23,18 @@ In order to find good control gains,I will continue to work on this project and 
 
 [//]: # (Image References)
 [image1]: ./images/CTE-Converges-to-04.jpg
-[image2]: ./images/CTE-Converges to-0.38.jpg
-[image3]: ./images/CTE-Converges-to-1.44.jpg
+[image2]: ./images/CTE-Converges-to-0.38.jpg
+[image3]: ./images/CTE-Converges-to-1.44.jpg 
 
-# Image : CTE Converges to .04 
+## Image : CTE Converges to .04 
 
 ![alt text][image1]
 
-# Image : CTE Converges to 0.38  
+## Image : CTE Converges to 0.38  
 
 ![alt text][image2]
 
-# Image : CTE Converges to 1.44
+## Image : CTE Converges to 1.44
 
 ![alt text][image3]
 
